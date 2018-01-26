@@ -11,7 +11,7 @@ Our game is going to give users a starting amount of money - maybe $100,000? and
 Decide your schema. We're probably going to be adding features to this - how do we make sure it's flexible? What tables do we need? Upload a screenshot of your schema design to your repo before moving on.
 
 ###Step 2: Object Design
-Without writing any logic, decide your classes and modules. With your pair, ask the necessary questions - what properties does a user hold? What properties does a stock hold? What methods? How is the db accessed?
+Without writing any logic, decide your classes and modules. Ask the necessary questions - what properties does a user hold? What properties does a stock hold? What methods? How is the db accessed?
 
 ###Step 3: User Interface
 To play our game, our users want to be able to search companies and get the exact stock ticker symbol we want. Our users also want to retreive the market data for a stock before they purchase it - we should obviously show them today's price, but we have alot more information at our disposal that will help the player make an informed decision. Start with a very simple interface that lets the users access and see this data from your API wrapper.
